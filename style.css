@@ -196,8 +196,9 @@ figure {
     text-align: center;
 }
 
-.sarah {
-    width: 68%;
+.info{
+    width: 65%;
+    margin-left: 70px;
 }
 
 .sarah,
@@ -350,6 +351,11 @@ figure {
         padding-top: 20px;
     }
 
+    .info{
+        width: 60%;
+        margin-left: 100px;
+    }
+    
     .imagesHaut,
     .imagesBas {
         flex-direction: column;
