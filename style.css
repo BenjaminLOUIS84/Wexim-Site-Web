@@ -1,0 +1,359 @@
+/*  Pour reset les marges*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* wrapper  =   bloc contenant les réglages par défaut pour toute la page*/
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header  =   bloc contenant le menu de navigation, le titre principal (h1) et une image en arrière plan*/
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/unsplash_A6UK4MpjhDEwexim_img.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+}
+
+.container2 {
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to right, rgb(46, 46, 204) 0%, rgba(208, 208, 228, 0.65) 100%);
+    padding-top: 240px;
+    text-align: center;
+    font-size: 2em;
+}
+
+h3 {
+    color: white;
+    font-size: 2em;
+    opacity: 50%;
+    font-weight: normal;
+}
+
+/* Main  =   Contient toutes les Sections de la page*/
+/*SECTION 1   contient->  partie1 qui contient info et partie2 qui contient webSite*/
+
+
+#partie1,
+.partie2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info h1 {
+    color: blue;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+#partie1 {
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.partie2 {
+    text-align: left;
+    justify-content: flex-start;
+    gap: 100px;
+    margin-left: 130px;
+    margin-bottom: 40px;
+}
+
+h4 {
+    color: blue;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+}
+
+/*SECTION 2   contient->  container 3 et 4*/
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/imagewexim_img.png");
+    background-repeat: no-repeat;
+    height: 450px;
+    background-size: cover;
+}
+
+.container4 {
+    width: 100%;
+    height: 450px;
+    background-image: linear-gradient(to right, rgb(46, 46, 204) 0%, rgba(208, 208, 228, 0.65) 100%);
+    padding-top: 140px;
+    padding-left: 270px;
+    text-align: left;
+}
+
+.section2 h1 {
+    font-size: 1em;
+}
+
+.section2 h2 {
+    font-size: 2.5em;
+    color: rgb(12, 213, 240);
+    font-weight: normal;
+}
+
+.section2 h3 {
+    font-size: 1em;
+    color: white;
+    opacity: 100%;
+    font-weight: normal;
+}
+
+/*SECTION 3    contient->  container 5 et 6*/
+
+#team h1 {
+    font-size: 1em;
+    color: black;
+    margin-top: 20px;
+}
+
+#team h2 {
+    font-size: 2.5em;
+    color: blue;
+    font-weight: normal;
+}
+
+#team h3 {
+    font-size: 1em;
+    color: grey;
+    opacity: 100%;
+    font-weight: normal;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    padding-bottom: 80px;
+}
+
+.container6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: whitesmoke;
+    padding-bottom: 160px;
+}
+
+figure {
+    background: white;
+    text-align: center;
+}
+
+.sarah {
+    width: 68%;
+}
+
+.sarah,
+.becka,
+.alex {
+    padding-top: 20px;
+}
+
+/*SECTION 4    contient->  container 7 - 8 - 9 et 10*/
+
+#portfolio h1 {
+    font-size: 1em;
+    color: gray;
+    margin-top: 20px;
+}
+
+#portfolio h2 {
+    font-size: 2.5em;
+    color: black;
+}
+
+#portfolio h3 {
+    font-size: 1em;
+    color: grey;
+    opacity: 100%;
+    font-weight: normal;
+}
+
+#portfolio span {
+    font-size: 1em;
+    color: blue;
+    opacity: 100%;
+    font-weight: normal;
+}
+
+#portfolio h4 {
+    font-size: 0.7em;
+    color: black;
+    opacity: 100%;
+    font-weight: normal;
+}
+
+.container7 {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.container8 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container9 {
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+    padding-bottom: 30px;
+}
+
+.container10 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container10 figure {
+    width: 50%;
+}
+
+.imagesHautGauche3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagesHaut,
+.imagesBas {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagesBasDroite3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagesBasDroite2 {
+    display: flex;
+    flex-direction: row;
+}
+
+/* .img1{
+    position:absolute;
+
+}
+.img2{
+    position:absolute;
+    
+}
+.img3{
+    position:absolute;
+    
+}
+.img4{
+    position:absolute;
+    
+}
+.img5{
+    position:absolute;
+    
+}
+.img6{
+    position:absolute;
+    
+}
+.img7{
+    position:absolute;
+    
+}
+.img8{
+    position:absolute;
+    
+} */
+
+
+/*INSPECTER*/
+
+@media only screen and (max-width: 1115px) {
+
+    .partie2 {
+        margin-left: 65px;
+    }
+
+    .container4 {
+        padding-left: 180px;
+    }
+
+    .container6 {
+        flex-direction: column;
+    }
+
+    .sarah,
+    .becka,
+    .alex {
+        padding-top: 20px;
+    }
+
+    .imagesHaut,
+    .imagesBas {
+        flex-direction: column;
+    }
+
+
+}
