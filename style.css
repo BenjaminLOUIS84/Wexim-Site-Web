@@ -91,7 +91,7 @@ h5 {
 }
 
 #partie1 {
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -101,7 +101,8 @@ h5 {
     justify-content: flex-start;
     gap: 100px;
     margin-left: 130px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
+    padding-top: 80px;
 }
 
 h4 {
@@ -109,6 +110,7 @@ h4 {
     font-size: 2em;
     font-weight: bold;
     text-align: left;
+    padding-bottom: 40px;
 }
 
 /*SECTION 2   contient->  container 3 et 4*/
@@ -155,7 +157,7 @@ h4 {
 #team h1 {
     font-size: 1em;
     color: black;
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
 #team h2 {
@@ -196,7 +198,7 @@ figure {
     text-align: center;
 }
 
-.info{
+.info {
     width: 65%;
     margin-left: 70px;
 }
@@ -351,11 +353,10 @@ figure {
         padding-top: 20px;
     }
 
-    .info{
+    .info {
         width: 60%;
-        margin-left: 100px;
     }
-    
+
     .imagesHaut,
     .imagesBas {
         flex-direction: column;
