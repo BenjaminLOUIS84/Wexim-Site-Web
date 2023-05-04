@@ -500,6 +500,7 @@ footer h2 {
 
     img.info {
         width: 60%;
+        margin-left: 100px;
     }
 
     .imagesHaut,
@@ -578,7 +579,7 @@ footer h2 {
     }
 
     #partie1 {
-        margin-right: 0px;
+        margin-right: 20px;
         font-size: 1.5em;
     }
 
@@ -625,9 +626,9 @@ footer h2 {
         padding: 20px;
     }
 
-    .info {
+    img.info {
         width: 80%;
-        margin-left: 40px;
+        margin-left: 20px;
     }
 
     h4 {
