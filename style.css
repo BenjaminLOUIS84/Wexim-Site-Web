@@ -27,6 +27,9 @@ nav {
 
 /*////////////////////////////////////////////MENU BURGER TELEPHONE*/
 
+/* #menuBurger {
+    display: none;
+} */
 
 /*////////////////////////////////*/
 
@@ -572,6 +575,10 @@ footer h2 {
         display: none;
     }
 
+/*  #menuBurger {
+    display: flex;
+    } */
+
     /*////////////////////////////ABOUT///////////////////////*/
 
     .container2 {
@@ -630,7 +637,7 @@ footer h2 {
         width: 95%;
         margin-left: 20px;
     }
-    
+
     .sarah,
     .becka,
     .alex {
