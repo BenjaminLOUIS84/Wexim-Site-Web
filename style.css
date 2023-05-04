@@ -25,10 +25,16 @@ nav {
     padding: 20px;
 }
 
+/*////////////////////////////////////////////MENU BURGER TELEPHONE*/
+
+
+/*////////////////////////////////*/
+
 a {
     color: white;
     text-decoration: none;
     padding: 20px;
+    font-weight: 2em;
 }
 
 h1,
@@ -63,6 +69,7 @@ h3 {
     font-size: 2em;
     opacity: 50%;
     font-weight: normal;
+    line-height: 2;
 }
 
 /* Main  =   Contient toutes les Sections de la page*/
@@ -80,7 +87,7 @@ h3 {
     flex-direction: column;
 }
 
-.info h1 {
+.info h4 {
     color: gray;
     font-size: 1em;
     margin-bottom: 20px;
@@ -98,7 +105,7 @@ h5 {
 
 .partie2 {
     text-align: left;
-    justify-content: flex-start;
+    justify-content: space-around;
     gap: 100px;
     margin-left: 130px;
     margin-bottom: 80px;
@@ -130,12 +137,12 @@ h4 {
     width: 100%;
     height: 450px;
     background-image: linear-gradient(to right, rgb(46, 46, 204) 0%, rgba(208, 208, 228, 0.65) 100%);
-    padding-top: 140px;
+    padding-top: 90px;
     padding-left: 270px;
     text-align: left;
 }
 
-.section2 h1 {
+.section2 h4 {
     font-size: 1em;
 }
 
@@ -154,7 +161,7 @@ h4 {
 
 /*SECTION 3    contient->  container 5 et 6*/
 
-#team h1 {
+#team h4 {
     font-size: 1em;
     color: black;
     margin-top: 80px;
@@ -211,7 +218,7 @@ figure {
 
 /*SECTION 4    contient->  container 7 - 8 - 9 et 10*/
 
-#work h1 {
+#work h5 {
     font-size: 1em;
     color: gray;
     margin-top: 20px;
@@ -261,7 +268,7 @@ figure {
 .container9 {
     display: flex;
     justify-content: left;
-    margin-left: 100px;
+    margin-left: 150px;
     padding-bottom: 30px;
 }
 
@@ -275,6 +282,10 @@ figure {
 
 .container10 figure {
     width: 50%;
+}
+
+.dim {
+    vertical-align: top;
 }
 
 .imagesHautGauche3 {
@@ -319,7 +330,7 @@ figure {
 }
 
 
-#blog h1 {
+#blog h4 {
     font-size: 1em;
     color: gray;
     margin-top: 20px;
@@ -340,7 +351,7 @@ figure {
 }
 
 #blog a {
-    background: linear-gradient(to right, rgb(46, 46, 204) 0%, rgba(208, 208, 228, 0.65) 100%);
+    background: linear-gradient(to right, rgb(46, 46, 204) 0%, rgba(100, 100, 130, 0.65) 100%);
     border-radius: 60px;
     padding: 10px;
     width: 25%;
@@ -353,7 +364,7 @@ figure {
 
 /*SECTION 6   contient->  container 13 et 14*/
 
-#contact{
+#contact {
     padding-top: 160px;
 }
 
@@ -364,25 +375,25 @@ figure {
     justify-content: center;
     background-image: url("./images/unsplash_VNgbqJ-qAjcwexim_img.png");
     background-repeat: no-repeat;
-    height: 434px;
+    height: 450px;
     background-size: cover;
 }
 
 .container14 {
     width: 100%;
-    height: 434px;
+    height: 450px;
     background-image: linear-gradient(to right, rgb(46, 46, 204) 0%, rgba(208, 208, 228, 0.65) 100%);
-    padding-top: 140px;
+    padding-top: 100px;
     text-align: justify;
 
-    
+
 }
 
-.map {
-    width: 100%;
+.maps {
+    width: 104%;
 }
 
-#contact h1 {
+#contact h3 {
     font-size: 1em;
     color: white;
     opacity: 100%;
@@ -391,7 +402,8 @@ figure {
 
 #contact h2 {
     font-size: 2.5em;
-    color: rgb(12, 213, 240);;
+    color: rgb(12, 213, 240);
+    ;
     opacity: 100%;
     font-weight: normal;
     padding-left: 100px;
@@ -403,10 +415,53 @@ figure {
     opacity: 100%;
     font-weight: normal;
     padding-left: 100px;
+    line-height: 2;
 }
 
+/*Pied de Page   contient->  Les Liens vers les réseaux sociaux*/
 
-/*INSPECTER*/
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+footer h3 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+footer h2 {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: normal;
+    padding-top: 20px;
+}
+
+.reseau {
+    display: flex;
+    flex-direction: column;
+}
+
+.mess,
+.linked,
+.inst {
+    width: 1.5%;
+}
+
+.goo,
+.fb,
+.tw {
+    width: 2%;
+}
+
+/*INSPECTER///////////////////////////////////////////*/
 
 @media only screen and (max-width: 1115px) {
 
@@ -418,8 +473,24 @@ figure {
         padding-left: 180px;
     }
 
+    .container4 h4 {
+        text-align: left;
+    }
+
     .container6 {
         flex-direction: column;
+    }
+
+    .container7 {
+        flex-direction: column;
+    }
+
+    .container9 {
+        margin-left: 70px;
+    }
+
+    #work h4 {
+        margin-left: 100px;
     }
 
     .sarah,
@@ -437,9 +508,190 @@ figure {
         flex-direction: column;
     }
 
-    .container13,
-    .container14{
-        height: 402px;
+    .container11 {
+        padding-left: 20px;
     }
 
+    .container13,
+    .container14 {
+        height: 383px;
+        text-align: left;
+    }
+
+    .container14 {
+        padding-top: 70px;
+        width: 107%;
+    }
+
+    .map,
+    .tablet {
+        width: 80%;
+    }
+
+    .maps {
+        width: 100%;
+    }
+
+    footer {
+        margin-left: 40px;
+    }
+
+}
+
+/*TABLETTE////////////////////////////////////////////*/
+
+@media only screen and (max-width:996px) {
+    .form-email {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+
+/*TELEPHONE////////////////////////////////////////////*/
+
+@media only screen and (max-width:360px) {
+
+    #wrapper {
+        width: 172%;
+        margin: auto;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /*////////////////////////////ABOUT///////////////////////*/
+
+    .container2 {
+        padding-top: 180px;
+    }
+
+    #partie1 {
+        margin-right: 0px;
+    }
+
+    .partie2 {
+        justify-content: center;
+        font-size: 2em;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    #partie1,
+    .partie2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .partie2 h4 {
+        text-align: center;
+        align-items: center;
+    }
+
+    .info h4 {
+        text-align: center;
+    }
+
+    .info h5{
+        padding-bottom: 20px;
+    }
+
+    .website2,
+    .website3 {
+        display: none;
+    }
+
+    .container4 {
+        padding-left: 80px;
+    }
+
+    /*/////////////////////////////TEAM//////////////////////////////*/
+
+    #team h3 {
+        padding: 20px;
+    }
+
+    .info {
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    h4 {
+        padding-bottom: 0px;
+    }
+
+    /*////////////////////////////////////CSS CAROUSEL////*/
+
+    .container6 {
+        position: relative;
+        overflow: auto;
+        display: flex;
+        justify-content: left;
+        scroll-snap-type: x mandatory;
+        flex-direction: row;
+        padding-bottom: 90px;
+    }
+
+    .container6 img {
+        position: sticky;
+        object-fit: cover;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+    }
+
+    /*////////////////////////////WORK///////////////////////*/
+
+    .container8 {
+        align-items: center;
+    }
+
+    .container10 {
+        padding-bottom: 100px;
+    }
+
+    /*////////////////////////////BLOG///////////////////////*/
+
+    .container11 {
+        flex-direction: column-reverse;
+    }
+
+    .container12 {
+        padding-bottom: 50px;
+        align-items: center;
+    }
+
+    /*////////////////////////////CONTACT///////////////////////*/
+
+    .container14 {
+        width: 100%;
+    }
+
+    #contact {
+        padding-top: 0px;
+    }
+
+    .maps {
+        display: none;
+    }
+
+    /*////////////////////////////FOOTER///////////////////////*/
+
+    footer {
+        width: 130%;
+    }
+
+    .mess,
+    .linked,
+    .inst {
+        width: 3.5%;
+    }
+
+    .goo,
+    .fb,
+    .tw {
+        width: 4%;
+    }
 }
