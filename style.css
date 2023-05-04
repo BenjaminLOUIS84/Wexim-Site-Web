@@ -208,6 +208,7 @@ figure {
 .info {
     width: 65%;
     margin-left: 70px;
+    
 }
 
 .sarah,
@@ -385,8 +386,6 @@ figure {
     background-image: linear-gradient(to right, rgb(46, 46, 204) 0%, rgba(208, 208, 228, 0.65) 100%);
     padding-top: 100px;
     text-align: justify;
-
-
 }
 
 .maps {
@@ -499,7 +498,7 @@ footer h2 {
         padding-top: 20px;
     }
 
-    .info {
+    img.info {
         width: 60%;
     }
 
@@ -545,10 +544,179 @@ footer h2 {
         flex-direction: column;
         gap: 0;
     }
+
+    .info {
+        margin-left: 30px;
+    }
+
+    img.info {
+        margin-left: 100px;
+    }
+
+    .maps {
+        width: 101%;
+    }
 }
 
-
 /*TELEPHONE////////////////////////////////////////////*/
+
+@media only screen and (max-width:630px) {
+
+    #wrapper {
+        width: 172%;
+        margin: auto;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /*////////////////////////////ABOUT///////////////////////*/
+
+    .container2 {
+        padding-top: 180px;
+    }
+
+    #partie1 {
+        margin-right: 0px;
+        font-size: 1.5em;
+    }
+
+    .partie2 {
+        justify-content: center;
+        font-size: 2em;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    #partie1,
+    .partie2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .partie2 h4 {
+        text-align: center;
+        align-items: center;
+    }
+
+    .info h4 {
+        text-align: center;
+    }
+
+    .info h5 {
+        padding-bottom: 20px;
+    }
+
+    .website2,
+    .website3 {
+        display: none;
+    }
+
+    .container4 {
+        padding-left: 80px;
+    }
+
+    /*/////////////////////////////TEAM//////////////////////////////*/
+
+    #team h3 {
+        padding: 20px;
+    }
+
+    .info {
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    h4 {
+        padding-bottom: 0px;
+    }
+
+    /*////////////////////////////////////CSS CAROUSEL////*/
+
+    .container6 {
+        position: relative;
+        overflow: auto;
+        display: flex;
+        justify-content: left;
+        scroll-snap-type: x mandatory;
+        flex-direction: row;
+        padding-bottom: 90px;
+    }
+
+    .container6 img {
+        position: sticky;
+        object-fit: cover;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+    }
+
+    /*////////////////////////////WORK///////////////////////*/
+
+    .container8 {
+        align-items: center;
+    }
+
+    .container10 {
+        padding-bottom: 100px;
+    }
+
+    #work h4 {
+        margin-left: 190px;
+    }
+
+    /*////////////////////////////BLOG///////////////////////*/
+
+    .container11 {
+        flex-direction: column-reverse;
+    }
+
+    .container12 {
+        padding-bottom: 50px;
+        align-items: center;
+    }
+
+    #blog a {
+        width: 15%;
+    }
+
+    /*////////////////////////////CONTACT///////////////////////*/
+
+    .container14 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #contact {
+        padding-top: 0px;
+    }
+
+    .maps {
+        display: none;
+    }
+
+    /*////////////////////////////FOOTER///////////////////////*/
+
+    footer {
+        width: 130%;
+    }
+
+    .mess,
+    .linked,
+    .inst {
+        width: 3.5%;
+    }
+
+    .goo,
+    .fb,
+    .tw {
+        width: 4%;
+    }
+}
+
+/*TELEPHONE SMALL////////////////////////////////////////////*/
 
 @media only screen and (max-width:360px) {
 
@@ -595,7 +763,7 @@ footer h2 {
         text-align: center;
     }
 
-    .info h5{
+    .info h5 {
         padding-bottom: 20px;
     }
 
